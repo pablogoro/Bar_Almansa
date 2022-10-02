@@ -24,7 +24,7 @@
 
     <div class="menu">
         <div class="tittle">
-            <H1>BAR RESTAURANTE ALMANSA</H1>
+            <p>BAR RESTAURANTE ALMANSA</p>
         </div>
 
         <nav class="navigation">
@@ -38,6 +38,27 @@
 
             </ul>
         </nav>
+        <div class="icon">
+            <span onclick="responsiveNav()">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform:msFilter;"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+            </span>
+        </div>
+
+
+    </div>
+
+    <nav class="navigation2 invisible" id="icon">
+        <ul>
+
+            <li><a onclick="active2(event)" class="click active2" id="active2" href="./index.html">Inicio</a></li>
+            <li><a onclick="active2(event)" class="click" href="#menu">Carta</a></li>
+            <li><a onclick="active2(event)" class="click" href="#ubi">Ubicación</a></li>
+            <li><a onclick="active2(event)" href="#footer" class="click">Contacto</a></li>
+
+
+        </ul>
+    </nav>
+
 
     </div>
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -67,7 +88,7 @@
     <hr>
     <section class="hero-section">
         <div class="card-grid">
-            <a class="card" href="#platos">
+            <a class="card " href="#platos">
                 <div class="card__background" style="background-image: url(./img/img4.jpg)"></div>
                 <div class="card__content">
                     <p class="card__category"></p>
@@ -75,14 +96,14 @@
                 </div>
             </a>
 
-            <a class="card" href="#info">
+            <a class="card " href="#info">
                 <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
                 <div class="card__content">
 
                     <h3 class="card__heading">Sobre Nosotros</h3>
                 </div>
                 </li>
-                <a class="card" href="#horarios">
+                <a class="card " href="#horarios">
                     <div class="card__background" style="background-image: url(./img/img5.jpg)"></div>
                     <div class="card__content">
 
